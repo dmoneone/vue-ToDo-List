@@ -50,6 +50,7 @@
         },
         methods: {
             addNewToDo(){
+                this.status = false;
                 if( !this.done ) {
                     this.toDoArr.push(this.val);
                     this.val = '';
